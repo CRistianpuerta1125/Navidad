@@ -239,7 +239,23 @@ img {
 
 
 /*=============== HOME ===============*/
-
+.home{
+  position: relative;
+  background: linear-gradient(180deg,
+            hsl(210, 88%, 20%),
+            hsl(210, 70%, 58%));
+  height: 650px;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+.home__title {
+  color: var(--white-color);
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
 
 /*=============== ABOUT ===============*/
 
