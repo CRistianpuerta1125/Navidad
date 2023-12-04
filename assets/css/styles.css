@@ -332,8 +332,21 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background .3s, box-shadow .4s;
+}
 
 
+.button:hover{
+  background-color: var(--first-color-alt);
+  box-shadow: 0 8px 32px hsla(210, 80%, 54%, .7);
+}
 /*=============== SEND ===============*/
 
 
